@@ -29,7 +29,7 @@
 
 ## 功能
 
-- 打开 APP 自动启动本机 CLIProxyAPI 服务（127.0.0.1:8317），WebView 加载管理面板
+- 打开 APP 自动启动本机 CLIProxyAPI 服务（127.0.0.1:8317），WebView 加载管理面板，默认面板登入面板密码为admin
 - 内置 **PRoot + glibc** 环境，支持原版 Linux glibc arm64 插件
 - 管理面板侧边栏「控制」分组注入 **导入 CPA 插件**（支持 `.so` / `.zip`，自动改写 config 并热重启）
 - 内置小型浏览器：所有外部链接在 APP 内打开
