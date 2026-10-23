@@ -1,1 +1,14 @@
+# Build output
+build/
+.gradle/
+local.properties
 *.apk
+*.aab
+
+# Large binaries are added locally before building (see README)
+app/src/main/assets/
+app/src/main/jniLibs/
+
+# Editor / OS noise
+.idea/
+.DS_Store
